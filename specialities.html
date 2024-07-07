@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>RAGV hospital</title>
+        <link rel="stylesheet" href="design.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="fdm1.html"><img src="images/cross-png.webp"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="specialities.html">Specialities</a></li>
+                    <li><a href="our doctors.html">Our Doctors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick=showMenu()></i>
+        </nav>
+        <h1>Specialities</h1>
+    </section>
+<!-----specialities------->
+
+<section class="course">
+    <h1>Our Area Of Strengths</h1>
+    <p>Our highly experienced team of doctors, surgeons, transplant surgeons, physicians</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>intermediate</h3>
+            <p>We are a truly collaborative centre for personalized medical care. Renowned medical experts assisted by smart technologies work in tandem to progressively improve healthcare outcomes</p>
+        </div>
+        <div class="course-col">
+            <h3>degreee</h3>
+            <p>We are a truly collaborative centre for personalized medical care. Renowned medical experts assisted by smart technologies work in tandem to progressively improve healthcare outcomes</p>
+        </div>
+        <div class="course-col">
+            <h3>graduation</h3>
+            <p>We are a truly collaborative centre for personalized medical care. Renowned medical experts assisted by smart technologies work in tandem to progressively improve healthcare outcomes</p>
+        </div>
+    </div>
+</section>
+
+<!-----facilities----->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>we are committed to improving life through outstanding healthcare. A 400-bed quaternace care multi-specialty hospital in the heart of your city.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/lab1.jpg">
+            <h3>World Class Laboratories</h3>
+            <p>we are committed to improving life through outstanding healthcare. A 400-bed quaternace care multi-specialty hospital in the heart of your city.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/surgeon1.jpg">
+            <h3>Modern Surgeons</h3>
+            <p>we are committed to improving life through outstanding healthcare. A 400-bed quaternace care multi-specialty hospital in the heart of your city.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/spsr1.jpg">
+            <h3>Specialist Services</h3>
+            <p>we are committed to improving life through outstanding healthcare. A 400-bed quaternace care multi-specialty hospital in the heart of your city.</p>
+        </div>
+    </div>
+</section>
+
+<!--------footer------------>
+
+<section class="footer">
+    <h1>About Us</h1>
+    <p>we are committed to improving life through outstanding healthcare. A 400-bed care multi-specialty hospital <br>Apply your seats anywhere from the world through the online</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> By Easy Our Developers</p>
+</section>
+
+<!------javascript toggle menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
